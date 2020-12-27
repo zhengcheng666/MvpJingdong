@@ -1,5 +1,7 @@
 package com.example.mvpjingdong.base;
 
+
+
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -15,7 +17,8 @@ public abstract class BaseActivity<T extends BasePresenter> extends AppCompatAct
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(getlayoutID());
+        super.onCreate(savedInstanceState);
+        setContentView(getlayoutID());
         if (per != null) {
             //让V层知道T是公共P层的对象
             per = getper();
@@ -28,7 +31,7 @@ public abstract class BaseActivity<T extends BasePresenter> extends AppCompatAct
     //抽象方法可以根据子类的特点，各自实现（写不同的特性的东西。）
     protected abstract T getper();
 
-    protected abstract Bundle getlayoutID();
+    protected abstract int getlayoutID();
 
     protected abstract void initView();
 

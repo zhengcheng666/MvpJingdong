@@ -1,12 +1,12 @@
-package com.example.week.presenter;
+package com.example.mvpjingdong.presenter;
 
-import com.example.week.base.BasePresenter;
-import com.example.week.bean.Bean;
-import com.example.week.contract.HomeContract;
-import com.example.week.model.HomeModel;
-import com.example.week.net.CallBackinterface;
-import com.example.week.net.URLConstant;
 
+import com.example.mvpjingdong.base.BasePresenter;
+import com.example.mvpjingdong.bean.Bean;
+import com.example.mvpjingdong.contract.HomeContract;
+import com.example.mvpjingdong.model.HomeModel;
+import com.example.mvpjingdong.net.CallBackinterface;
+import com.example.mvpjingdong.net.URLConstant;
 
 public class HomePresenter extends BasePresenter<HomeContract.IMainView,HomeContract.IMainModel> implements HomeContract.IMainPresenter {
 

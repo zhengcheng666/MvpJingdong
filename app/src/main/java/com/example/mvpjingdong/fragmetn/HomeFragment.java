@@ -1,4 +1,4 @@
-package com.example.week.fragment;
+package com.example.mvpjingdong.fragmetn;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -13,27 +13,27 @@ import com.alibaba.android.vlayout.VirtualLayoutManager;
 import com.alibaba.android.vlayout.layout.GridLayoutHelper;
 import com.alibaba.android.vlayout.layout.LinearLayoutHelper;
 import com.alibaba.android.vlayout.layout.SingleLayoutHelper;
-import com.example.week.R;
-import com.example.week.adapter.FuAdapter;
-import com.example.week.adapter.GridLayoutAdapter;
-import com.example.week.adapter.GridLayoutSixAdapter;
-import com.example.week.adapter.HorizontalAdapter;
-import com.example.week.adapter.SingleAdapter;
-import com.example.week.adapter.SingleFourAdapter;
-import com.example.week.adapter.SingleSixAdapter;
-import com.example.week.adapter.SingleThreeAdapter;
-import com.example.week.adapter.SingleTwoAdapter;
-import com.example.week.adapter.TitleAdapter;
-import com.example.week.base.BaseFragment;
-import com.example.week.bean.Bean;
-import com.example.week.contract.HomeContract;
-import com.example.week.presenter.HomePresenter;
+import com.example.mvpjingdong.R;
+import com.example.mvpjingdong.adapter.FuAdapter;
+import com.example.mvpjingdong.adapter.GridLayoutAdapter;
+import com.example.mvpjingdong.adapter.GridLayoutSixAdapter;
+import com.example.mvpjingdong.adapter.HorizontalAdapter;
+import com.example.mvpjingdong.adapter.SingleAdapter;
+import com.example.mvpjingdong.adapter.SingleFourAdapter;
+import com.example.mvpjingdong.adapter.SingleSixAdapter;
+import com.example.mvpjingdong.adapter.SingleThreeAdapter;
+import com.example.mvpjingdong.adapter.SingleTwoAdapter;
+import com.example.mvpjingdong.adapter.TitleAdapter;
+import com.example.mvpjingdong.base.BaseFragment;
+import com.example.mvpjingdong.bean.Bean;
+import com.example.mvpjingdong.contract.HomeContract;
+import com.example.mvpjingdong.presenter.HomePresenter;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class HomeFragment extends BaseFragment<HomePresenter>implements HomeContract.IMainView {
+public class HomeFragment extends BaseFragment<HomePresenter> implements HomeContract.IMainView {
 
 
     private RecyclerView rel;

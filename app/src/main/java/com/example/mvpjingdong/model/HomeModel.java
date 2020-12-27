@@ -1,10 +1,9 @@
-package com.example.week.model;
+package com.example.mvpjingdong.model;
 
-import com.example.week.bean.Bean;
-import com.example.week.contract.HomeContract;
-import com.example.week.net.CallBackinterface;
-import com.example.week.net.RetrofitUtils;
-import com.example.week.presenter.HomePresenter;
+
+import com.example.mvpjingdong.contract.HomeContract;
+import com.example.mvpjingdong.net.CallBackinterface;
+import com.example.mvpjingdong.net.RetrofitUtils;
 
 public class HomeModel implements HomeContract.IMainModel {
 

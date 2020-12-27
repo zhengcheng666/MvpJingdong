@@ -1,15 +1,14 @@
-package com.example.week.fragment;
+package com.example.mvpjingdong.fragmetn;
 
 import android.os.Bundle;
-
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.week.R;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
+import com.example.mvpjingdong.R;
 
 
 public class ListFragment extends Fragment {
